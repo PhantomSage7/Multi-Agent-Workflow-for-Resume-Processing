@@ -1,7 +1,7 @@
 from langgraph.graph import Graph, END
-from agents.reader import reader
-from agents.extractor import extractor
-from agents.validator import validator
+from reader import reader
+from extractor import extractor
+from validator import validator
 
 def human_call(data):
     """

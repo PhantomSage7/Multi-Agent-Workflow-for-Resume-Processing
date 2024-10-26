@@ -6,7 +6,7 @@ def extractor(prompt):
     """
     Extracts structured information from resume text using Gemini
     """
-    genai.configure(api_key=os.environ["KEY"])
+    genai.configure(api_key=os.environ["key"])
     
     # Define the schema for structured output
     schema = {
