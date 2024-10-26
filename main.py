@@ -1,7 +1,7 @@
 import os
 import json
 from dotenv import load_dotenv
-from agents.graph import create_workflow
+from graph import create_workflow
 
 def main():
     # Load environment variables
